@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     'fc:miniapp:splash_image': '/splash.png',
     'fc:miniapp:splash_background_color': '#18181b',
     'fc:miniapp:icon': '/icon.png',
+    'base:app_id': '6983d1fa2d51dfb241e4e388',
   },
 }
 
