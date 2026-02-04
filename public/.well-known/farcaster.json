@@ -1,0 +1,16 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjAsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0",
+    "payload": "eyJkb21haW4iOiJ2MC1jYWxjdWxhdG9yLWFwcGxpY2F0aW9uLWJhLnZlcmNlbC5hcHAifQ",
+    "signature": "MHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Calc",
+    "iconUrl": "https://v0-calculator-application-ba.vercel.app/icon.png",
+    "homeUrl": "https://v0-calculator-application-ba.vercel.app",
+    "splashImageUrl": "https://v0-calculator-application-ba.vercel.app/splash.png",
+    "splashBackgroundColor": "#18181b",
+    "webhookUrl": "https://v0-calculator-application-ba.vercel.app/api/webhook"
+  }
+}
