@@ -9,6 +9,7 @@
     "name": "Calc",
     "homeUrl": "https://v0-calculator-application-ba.vercel.app",
     "iconUrl": "https://v0-calculator-application-ba.vercel.app/icon.png",
+    "imageUrl": "https://v0-calculator-application-ba.vercel.app/screenshot.png",
     "splashImageUrl": "https://v0-calculator-application-ba.vercel.app/splash.png",
     "splashBackgroundColor": "#18181b",
     "subtitle": "Simple calculator app",
