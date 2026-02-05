@@ -12,17 +12,20 @@ export const metadata: Metadata = {
   description: 'A modern calculator app with basic arithmetic operations',
   generator: 'v0.app',
   other: {
-    'fc:frame': 'vNext',
-    'fc:frame:image': 'https://v0-calculator-application-ba.vercel.app/screenshot.png',
-    'fc:frame:image:aspect_ratio': '3:2',
-    'fc:frame:button:1': 'Open Calculator',
-    'fc:frame:button:1:action': 'launch_frame',
-    'fc:frame:button:1:target': 'https://v0-calculator-application-ba.vercel.app',
-    'of:accepts:xmtp': '2024-02-01',
-    'fc:miniapp': 'true',
-    'fc:miniapp:splash_image': 'https://v0-calculator-application-ba.vercel.app/splash.png',
-    'fc:miniapp:splash_background_color': '#18181b',
-    'fc:miniapp:icon': 'https://v0-calculator-application-ba.vercel.app/icon.png',
+    'fc:miniapp': JSON.stringify({
+      version: 'next',
+      imageUrl: 'https://v0-calculator-application-ba.vercel.app/screenshot.png',
+      button: {
+        title: 'Open Calculator',
+        action: {
+          type: 'launch_frame',
+          url: 'https://v0-calculator-application-ba.vercel.app',
+          name: 'Calc',
+          splashImageUrl: 'https://v0-calculator-application-ba.vercel.app/splash.png',
+          splashBackgroundColor: '#18181b'
+        }
+      }
+    }),
     'base:app_id': '6983d1fa2d51dfb241e4e388',
   },
 }
